@@ -35,7 +35,7 @@
             <a href='{% url "cart" %}'><i class="fa fa-shopping-cart fa-navbar-cart"></i> <span id="cart-count-badge" class='badge'>{{ request.session.cart_item_count }}</span></a>
           </li>
           {% if request.user.is_authenticated %}
-          <li><a href="{% url 'orders' %}"><font size="3" color="#0091ea">Orders</font></a></li> 
+          <li><a href="#"><font size="3" color="#0091ea">Orders</font></a></li> 
             <li><a href="{% url 'auth_logout' %}"><font size="3" color="#0091ea">Logout</font></a></li>
             {% else %}
             <li><a href="{% url 'registration_register' %}"><font size="3" color="#0091ea">Register</font></a></li>

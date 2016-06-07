@@ -77,6 +77,14 @@ class ProductFilter(FilterSet):
 	category_id = CharFilter(name='categories__id', lookup_type='icontains', distinct=True)
 	min_price = NumberFilter(name='variation__price', lookup_type='gte', distinct=True) # (some_price__gte=somequery)
 	max_price = NumberFilter(name='variation__price', lookup_type='lte', distinct=True)
+
+	# def inputValidityCheck(max_price,min_price):
+	# 	if(min_price>max_price):
+	# 		raise Http404
+	# 	elif(min_price<0 or max_price<0):
+	# 		raise Http404
+
+	
 	class Meta:
 		model = Product
 		fields = [

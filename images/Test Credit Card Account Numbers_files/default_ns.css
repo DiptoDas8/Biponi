@@ -1,0 +1,183 @@
+﻿BODY { 
+      font-family:Arial; 
+      background-color:#ffffff;  }
+H1 { 
+    color:#003366; 
+    font-family:Arial, sans-serif; 
+    font-size:16pt; 
+    line-height:18pt; 
+    font-weight:bold; 
+    font-style:normal; 
+    border-bottom-style:Solid; 
+    margin-bottom:16pt; 
+    margin-right:1pt; 
+    border-bottom-width:1px;  }
+LI.H1 { 
+       color:#003366; 
+       font-family:Arial, sans-serif; 
+       font-size:16pt; 
+       line-height:18pt; 
+       font-weight:normal; 
+       font-style:normal;  }
+H2 { 
+    color:#003366; 
+    font-size:14pt; 
+    font-family:Arial, sans-serif; 
+    margin-bottom:6pt; 
+    line-height:16pt; 
+    font-weight:bold; 
+    font-style:normal;  }
+LI.H2 { 
+       color:#003366; 
+       font-size:14pt; 
+       font-family:Arial, sans-serif; 
+       line-height:16pt; 
+       font-weight:normal; 
+       font-style:normal;  }
+H3 { 
+    color:#003366; 
+    font-size:12pt; 
+    font-family:Arial, sans-serif; 
+    margin-bottom:6pt; 
+    line-height:14pt; 
+    font-weight:bold; 
+    font-style:normal; 
+    margin-top:10pt;  }
+LI.H3 { 
+       color:#003366; 
+       font-size:12pt; 
+       font-family:Arial, sans-serif; 
+       line-height:14pt; 
+       font-weight:normal; 
+       font-style:normal;  }
+H4 { 
+    font-size:10pt; 
+    font-family:Arial, sans-serif; 
+    margin-bottom:6pt; 
+    line-height:12pt; 
+    font-style:italic; 
+    font-weight:bold;  }
+LI.H4 { 
+       font-size:10pt; 
+       font-family:Arial, sans-serif; 
+       line-height:12pt; 
+       font-style:italic; 
+       font-weight:normal;  }
+H5 { 
+    font-size:10.0pt; 
+    margin-bottom:8pt; 
+    font-weight:bold; 
+    font-style:normal; 
+    font-family:Arial;  }
+LI.H5 { 
+       font-size:10.0pt; 
+       font-weight:normal; 
+       font-style:normal;  }
+H6 { 
+    font-weight:bold; 
+    font-size:8.0pt; 
+    font-family:Arial;  }
+LI.H6 { 
+       font-weight:bold; 
+       font-size:8.0pt;  }
+P { 
+   margin-top:1pt; 
+   font-size:10pt; 
+   font-family:Arial, sans-serif; 
+   margin-bottom:6pt; 
+   line-height:13pt; 
+   margin-right:1pt;  }
+LI.P { 
+      font-size:10pt; 
+      font-family:Arial, sans-serif; 
+      line-height:13pt;  }
+A.expandspot { 
+              color:#003366; 
+              cursor:hand; 
+              font-style:italic; 
+              text-decoration:none;  }
+SPAN.expandtext { 
+                 font-style:italic; 
+                 font-weight:normal; 
+                 color:#ff0000;  }
+A.dropspot { 
+            cursor:hand; 
+            color:#003366; 
+            font-style:italic; 
+            text-decoration:none;  }
+A.glossterm { 
+             color:#003366; 
+             cursor:hand; 
+             font-style:italic; 
+             font-size:10pt; 
+             font-family:Arial, sans-serif; 
+             text-decoration:none;  }
+SPAN.glosstext { 
+                font-size:10pt; 
+                font-family:Arial, sans-serif; 
+                font-weight:normal; 
+                font-style:normal;  }
+OL { 
+    margin-top:0px; 
+    margin-bottom:0px; 
+    font-family:Arial;  }
+UL { 
+    margin-top:0px; 
+    margin-bottom:0px; 
+    font-family:Arial;  }
+P.Numbered { 
+            list-style:decimal;  }
+LI.P-Numbered { 
+               list-style:decimal;  }
+P.Bullet { 
+          margin-bottom:8px; 
+          text-indent:0; 
+          margin-left:.10in; 
+          display:inline; 
+          font-size:10pt; 
+          font-family:Arial, sans-serif; 
+          line-height:13pt; 
+          x-next-class:Bullet; 
+          x-next-type:P; 
+          list-style:inside url("plus_nc.jpg");  }
+LI.P-Bullet { 
+             text-indent:0; 
+             font-size:10pt; 
+             font-family:Arial, sans-serif; 
+             line-height:13pt; 
+             list-style:inside url("plus_nc.jpg");  }
+P.Note { 
+        x-next-type:P; 
+        list-style:inside url("note_nc.jpg"); 
+        border-top-style:none; 
+        margin-top:9pt; 
+        margin-bottom:12pt; 
+        margin-left:1pt;  }
+LI.P-Note { 
+           list-style:inside url("note_nc.jpg");  }
+P.Tip { 
+       x-next-type:P; 
+       list-style:url("tip_nc.jpg"); 
+       margin-top:9pt; 
+       margin-bottom:12pt; 
+       margin-left:1pt;  }
+LI.P-Tip { 
+          list-style:url("tip_nc.jpg");  }
+P.Link { 
+        color:#053dd1; 
+        font-weight:bold; 
+        font-style:normal; 
+        text-decoration:underline;  }
+LI.P-Link { 
+           color:#053dd1; 
+           font-weight:bold; 
+           font-style:normal; 
+           text-decoration:underline;  }
+ol ol { 
+       margin-top:1px;  }
+ol ul { 
+       margin-top:1px;  }
+ul ul { 
+       margin-top:1px;  }
+ul ol { 
+       margin-top:1px;  }
