@@ -21,22 +21,13 @@ Setup virtualenv and install all dependencies as mentioned in requirements.txt f
 
 ## Tests
 
-Use as a site hosted in localhost.
+Describe and show how to run the tests with code examples.
 
 ## Contributors
 
-This was an academic project. Contributors: Dipto Das, Zakaria Mehrab
+Let people know how they can dive into the project, include important links to things like issue trackers, irc, twitter accounts if applicable.
 
 ## License
 
-MIT License
-
-Copyright (c) 2016 Dipto Das
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+A short snippet describing the license (MIT, Apache, etc.)
 
